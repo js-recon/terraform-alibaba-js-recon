@@ -11,7 +11,7 @@
 
 ```hcl
 module "js_recon" {
-  source  = "shriyanss/js-recon/alibaba"
+  source  = "js-recon/js-recon/alibaba"
   version = "~> 1.0"
 
   url    = "https://example.com"
@@ -93,7 +93,7 @@ JS Recon writes the following files and uploads them to OSS using `ossutil` with
 
 ```hcl
 module "js_recon" {
-  source = "shriyanss/js-recon/alibaba"
+  source = "js-recon/js-recon/alibaba"
   url    = "https://example.com"
   region = "ap-southeast-1"
 
@@ -105,7 +105,7 @@ module "js_recon" {
 
 ```hcl
 module "js_recon" {
-  source = "shriyanss/js-recon/alibaba"
+  source = "js-recon/js-recon/alibaba"
   url    = "https://example.com"
   region = "ap-southeast-1"
 
